@@ -463,11 +463,7 @@ function criarAlbum() {
             ){
                 figurinhasColadas.push(figurinhaId);
             }
-            if(figurinhaId === 51){
-
-            abrirCartaFinal();
-
-        }
+            
             //verificarFigurinhaDourada();
 
             salvar();
@@ -513,11 +509,6 @@ function criarAlbum() {
                             figurinhaSelecionada
                         );
 
-                        if(figurinhaSelecionada === 51){
-
-                            abrirCartaFinal();
-
-                        }
 
                     }
 
@@ -1319,6 +1310,26 @@ document
     }
 
 });*/
+
+// testar a carta final
+/*function modoDev(){
+
+    figurinhasObtidas = [];
+    figurinhasColadas = [];
+
+    for(let i = 1; i <= 50; i++){
+
+        figurinhasObtidas.push(i);
+        figurinhasColadas.push(i);
+
+    }
+
+    salvar();
+
+    atualizarInventario();
+    criarAlbum();
+
+}*/
 
 
 carregar();
