@@ -180,7 +180,7 @@ const pacotes = [
     id: 1,
     desbloqueado: true,
     aberto: false,
-    figurinhas: [1,2,3,4,5]
+    figurinhas: [3,2,5,4,1]
 },
 {
     id: 2,
@@ -188,7 +188,7 @@ const pacotes = [
     aberto: false,
     pergunta: "Qual apelido eu mais uso para você?",
     resposta: "Amor",
-    figurinhas: [6,7,8,9,10]
+    figurinhas: [9,11,8,6,7]
 },
 {
     id: 3,
@@ -196,7 +196,7 @@ const pacotes = [
     aberto: false,
     pergunta: "Quem foi o primeiro a mandar mensagem no instagram? 'Você' (Paulo) ou 'Eu' (Sabrina)?",
     resposta: "Você",
-    figurinhas: [11,12,13,14,15]
+    figurinhas: [41,16,13,21,12]
 },
 {
     id: 4,
@@ -204,7 +204,7 @@ const pacotes = [
     aberto: false,
     pergunta: "Que dia foi que começamos a conversar no instagram? A primeira troca de mensagens no caso. 'DD/MM'",
     resposta: "10/01",
-    figurinhas: [16,17,18,19,20]
+    figurinhas: [10,17,15,14,18]
 },
 {
     id: 5,
@@ -212,7 +212,7 @@ const pacotes = [
     aberto: false,
     pergunta: "Qual foi a primeira forma que eu chamei você? 'Rainha' ou 'Madame'?",
     resposta: "Madame",
-    figurinhas: [21,22,23,24,25]
+    figurinhas: [19,20,24,23,22]
 },
 {
     id: 6,
@@ -220,7 +220,7 @@ const pacotes = [
     aberto: false,
     pergunta: "Quem manda mais reels pro outro no instagram? 'Você' (Paulo) ou 'Eu' (Sabrina)?",
     resposta: "Eu",
-    figurinhas: [26,27,28,29,30]
+    figurinhas: [42,27,32,40,25]
 },
 {
     id: 7,
@@ -228,7 +228,7 @@ const pacotes = [
     aberto: false,
     pergunta: "Qual a diferença de altura entre a gente? Somente número, em média",
     resposta: "30",
-    figurinhas: [31,32,33,34,35]
+    figurinhas: [30,31,29,26,28]
 },
 {
     id: 8,
@@ -236,7 +236,7 @@ const pacotes = [
     aberto: false,
     pergunta: "Dia da primeira prova do Enem. DD/MM",
     resposta: "08/11",
-    figurinhas: [36,37,38,39,40]
+    figurinhas: [35,37,33,36,34]
 },
 {
     id: 9,
@@ -244,7 +244,7 @@ const pacotes = [
     aberto: false,
     pergunta: "Onde o Paulo nasceu?",
     resposta: "Palmas",
-    figurinhas: [41,42,43,44,45]
+    figurinhas: [50,39,44,38,43]
 },
 {
     id: 10,
@@ -252,7 +252,7 @@ const pacotes = [
     aberto: false,
     pergunta: "Qual é o nome completo do Paulo?",
     resposta: "Marcos Paulo Brito da Silva",
-    figurinhas: [46,47,48,49,50]
+    figurinhas: [48,47,45,49,46]
 }
 ];
 
