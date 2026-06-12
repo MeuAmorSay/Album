@@ -376,7 +376,19 @@ function criarAlbum() {
 
             if(i === 51){
 
-                if(
+                if(figurinhasColadas.includes(51)){
+
+                    const figurinha =
+                    figurinhas.find(f => f.id === 51);
+
+                    espaco.innerHTML = `
+                        <img
+                            src="${figurinha.imagem}"
+                            alt=""
+                        >
+                    `;
+
+                }else if(
                     figurinhasColadas.length >= 50 &&
                     !figurinhasObtidas.includes(51)
                 ){
