@@ -4,12 +4,42 @@
     box-sizing:border-box;
 }
 
-body{
-    background:#ffe6f0;
-    font-family:Arial, sans-serif;
-    padding:20px;
-    padding-bottom:180px;
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    padding-bottom: 180px;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: #ffe6f0;
 }
+body::before {
+    content: "";
+    position: fixed;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+    background: linear-gradient(-45deg, #ff0066, #ff5f9e, #f1d6e1);
+    background-size: 100% 100%;
+    animation: balanco 5s ease-in-out infinite alternate;
+    will-change: transform;
+    z-index: -1;
+}
+@keyframes balanco {
+    0% {
+        transform: scale(1) translate(0px, 0px);
+    }
+    50% {
+        transform: scale(1.3) translate(-20px, 15px);
+    }
+    100% {
+        transform: scale(1.05) translate(15px, -20px);
+    }
+}
+
+
 
 h1{
     text-align:center;
